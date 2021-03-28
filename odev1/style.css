@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* ------------------------- home page ------------------------------ */
+
+/* header */
+
+header {
+    padding: 15px;
+    background-color: #E7E3E3;
+}
+
+nav {
+    margin: 0px 50px;
+    height: 40px;
+}
+
+.nav-link li{
+    display: block;
+    float: right;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: #731161;
+}
+
+/* section one */
+
+#home-one {
+    height: 250px;
+    text-align: center;
+    background-color: #731161;
+    color: #fff;
+}
+
+.brand {
+    padding: 80px;
+}
+
+/* section two */
+
+#home-two {
+    padding: 60px;
+    text-align: center;
+    background-color: #E7E3E3;
+}
+
+.info {
+    border: 1px solid #731161;
+    border-radius: 10px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+.info-one, .info-two, .info-three{
+    display: inline-block;
+    padding: 30px;
+}
+
+.info-title {
+    color: #731161;
+}
+
+.info-title, .info-text {
+    margin-bottom: 20px;
+}
+
+.info-button button {
+    padding: 10px 10px;
+    border: 1px solid #731161;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.info-button button a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    color: #565656;
+    text-align: center;
+    padding: 5px;
+}
+
+/* ------------------------- about page ------------------------------ */
+
+#about-one {
+    padding: 50px;
+}
+
+#about-one h2 {
+    color: #731161;
+}
+
+/* ------------------------- products page ------------------------------ */
+
+#products {
+    padding: 30px 100px;
+}
+
+#products li, .product-image {
+    margin-bottom: 10px;
+}
+
+
+.product-price {
+    margin-bottom: 50px;
+}
